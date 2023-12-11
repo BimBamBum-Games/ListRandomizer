@@ -7,7 +7,7 @@ public static class UtilityRandomizer {
     public static System.Random rnd = new System.Random();
 
     //IList tipinde bir (interface) input alir ve metod C# extension olarak tanimlidir.
-    public static void Shuffle<T>(this IList<T> list) {
+    public static void RandIt<T>(this IList<T> list) {
         //Liste uzunlugunu al.
         int listCount = list.Count;
         while(listCount > 1) {
